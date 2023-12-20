@@ -1,5 +1,4 @@
-# API-PHP-C
-Un exemple d'API simple qui utilise C en backend et PHP pour le frontend.
+# PHP-C
 ## Organisation du projet  
 * Le fichier api est généré depuis main.c et contient l'ensemble de la logique côté serveur. (pour le générer : clang main.c -o api)
 * le fichier csv.txt comporte les données. Vu la petite taille du projet j'ai voulu essayer de manipuler un simple csv plutôt qu'une base en SQL.
